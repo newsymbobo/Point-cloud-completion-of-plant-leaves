@@ -23,21 +23,13 @@ Python 3.8
 PyTorch 1.12
 #NVIDIA GeForce RTX 3060 
 
-##1) Dataset
-  You can download the dataset from 
-  https://drive.google.com/file/d/1ZRVhjRzJM-vYYZ5LqCHhtddkR_y4FOc4/view?usp=drive_link
-  or https://pan.baidu.com/s/1q1r7IUawHZUu94t8FISmbQ
-  
-  Replace the 'dataset/resample' folder with the downloaded data.
-  Please provide your basic personal information (organization/school and your name). 
-  You can also reach me via email at 494251855@qq.com.
+##1) Pre-trained Weights
+ You can download from：
+  https://drive.google.com/file/d/1HFldNNn9ftgE7WaYycY_Q6_ZbV9_84zV/view?usp=drive_link
+  or
+  https://pan.baidu.com/s/1cSMiL9b5-Dr0HiUlU7A_0w 提取码：7Gbt
 
-##2) Train
-```
-python train.py 
-```
-
-##3) Evaluate the Performance on example
+##2) Evaluate the Performance on example
 ```
 python predict.py
 ```
@@ -48,6 +40,6 @@ The test data in 'test_real' folder captured by Azure-Kinect under natural occlu
 change ‘--infile’ to select different incomplete point cloud.
 Show the completion results, the program will generate txt files in 'fake' folder.
 
-##4) Visualization of Examples
+##3) Visualization of Examples
 
 Using Meshlab/cloudcompare to visualize the txt files.
